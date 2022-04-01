@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+    anchors: ['home', 'himif', 'himif2', 'himif3', 'family'],
     navigation: false,
     navigationPosition: 'right',
     navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Design
     controlArrows: true,
     verticalCentered: true,
-    sectionsColor: ['#72A1E5', '#50C9CE', '#1F363D', '#42F2F7'],
+    sectionsColor: ['#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',
