@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors: ['home', 'himif', 'himif2', 'himif3', 'family'],
+    anchors: ['home', 'himif', 'himif2', 'himif3', 'family', 'family1', 'events'],
     navigation: false,
     navigationPosition: 'right',
     navigationTooltips: ['firstSlide', 'secondSlide'],
