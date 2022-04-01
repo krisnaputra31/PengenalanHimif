@@ -36,7 +36,8 @@
   <!-- <h1>Hello world</h1> -->
 
   <!-- Start of Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top" style="background-color: #90F1EF;">
+  <nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top" data-aos="fade-down"
+    style="background-color: #90F1EF;">
     <div class="container">
       <a class="navbar-brand" href="#home"><img id="nav-logo" src="assets/img/home.png" alt="Himif"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -68,9 +69,8 @@
   <div id="fullpage">
     <!-- section for active page or hero section -->
     <div class="section active">
-      <div class="container text-center" data-aos="fade-down">
-        <p class="fs-2 rubik">Pengen tahu apa itu Himif??</p>
-        <p class="fs-3 rubik">Scroll dulu dong...</p>
+      <div class="container text-center">
+        <p class="fs-2 rubik" id="homeText"></p>
       </div>
     </div>
     <!-- end of active page or hero section -->
@@ -88,10 +88,9 @@
             <img src="assets/img/home.png" alt="events" style="width: 13em;">
           </div>
           <div class="col-md-6">
-            <p class="fs-3 rubik">HIMIF - UNIVERSITAS MDP</p>
-            <p class="fs-4 rubik">Youth Organization</p>
-            <p class="fs-5 card-subtitle rubik">Himpunan Mahasiswa Informatika Universitas Multi Data
-              Palembang - 2022</p>
+            <p class="fs-3 rubik" id="himifuniv"></p>
+            <p class="fs-4 rubik" id="youth"></p>
+            <p class="fs-5 card-subtitle rubik" id="pengertianHimif"></p>
           </div>
         </div>
       </div>
@@ -101,28 +100,34 @@
     <!-- start of himif visi-misi -->
     <div class="section">
       <div class="container text-light">
-        <div class="row rounded-top justify-content-center align-items-center my-md-3 my-0"
-          style="background-color: #70A9A1;">
+        <div class="row rounded-top justify-content-center align-items-center my-md-3 my-0 py-3"
+          style="background-color: #40798C;">
           <div class="col-md-4 my-0 my-md-0">
-            <p class="fs-2 mt-md-2">Visi...</p>
+            <p class="fs-2 mt-md-2" id="visi"></p>
           </div>
           <div class="col-md-6">
-            <p>Menjadi Himpunan Mahasiswa cinta almamater yang mengedepankan solidaritas dan keunggulan
+            <p style="text-align: justify;">Menjadi Himpunan Mahasiswa cinta almamater yang mengedepankan solidaritas
+              dan keunggulan
               berdasarkan
               pengetahuan , dan akhlak mulia</p>
           </div>
         </div>
-        <div class="row rounded-bottom justify-content-center align-items-center" style="background-color: #40798C;">
+        <div class="row rounded-bottom justify-content-center align-items-center py-3"
+          style="background-color: #40798C;">
           <div class="col-md-4">
-            <p class="fs-2">Misi...</p>
+            <p class="fs-2" id="misi"></p>
           </div>
           <div class="col-md-6">
-            <p>1.Menyalurkan aspirasi seluruh mahasiswa Teknik Informatika yang bersifat konstruktif <br>
-              2.Memberi wadah yang tepat untuk mahasiswa Teknik Informatika yang memiliki potensi dalam suatu bidang<br>
-              3.Menumbuhkan semangat juang Himpunan Mahasiswa Informatika kepada seluruh mahasiswa Teknik
+            <p style="text-align: justify;">
+              1. Menyalurkan aspirasi seluruh mahasiswa Teknik Informatika yang bersifat
+              konstruktif <br>
+              2. Memberi wadah yang tepat untuk mahasiswa Teknik Informatika yang memiliki potensi dalam suatu
+              bidang<br>
+              3. Menumbuhkan semangat juang Himpunan Mahasiswa Informatika kepada seluruh mahasiswa Teknik
               Informatika<br>
-              4.Menjaga keharmonisan dan sinergitas kepadaseluruh elemen jurusan teknik informatika dan lembaga lain<br>
-              5.Meningkatkan rasa kebersamaan dan saling memiliki antar mahasiswa Teknik Informatika .</p>
+              4. Menjaga keharmonisan dan sinergitas kepadaseluruh elemen jurusan teknik informatika dan lembaga
+              lain<br>
+              5. Meningkatkan rasa kebersamaan dan saling memiliki antar mahasiswa Teknik Informatika .</p>
           </div>
         </div>
       </div>
@@ -135,7 +140,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h1 class="rubik">Makna Logo HIMIF</h1>
+              <h1 class="rubik" id="makna"></h1>
             </div>
           </div>
         </div>
@@ -336,6 +341,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
     integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- type js -->
+  <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
 
   <!--My js-->
   <script src="js/script.js"></script>
