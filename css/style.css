@@ -1,3 +1,17 @@
 #nav-logo {
     width : 5rem;
 }
+
+.section{
+    text-align:center;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* #section2{
+    background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+    background: -webkit-linear-gradient(#969AC6, #636F8F);
+    background: linear-gradient(#969AC6,#636F8F);
+} */

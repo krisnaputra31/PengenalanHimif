@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Design
     controlArrows: true,
     verticalCentered: true,
-    sectionsColor: ['#ccc', '#000'],
+    sectionsColor: ['#72A1E5', '#50C9CE', '#1F363D', '#42F2F7'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',
