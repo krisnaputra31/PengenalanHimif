@@ -1,13 +1,306 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+
+
+  // card for family
+  const windowWidth = window.innerWidth;
+  const familyNoBidang = document.getElementById("familyWithoutBidang");
+  const bidang = document.getElementById("ketuaBidang")
+  if (windowWidth > 768) {
+    familyNoBidang.innerHTML =
+      `
+    <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card card-resize">
+                <img src="assets/img/family/1.png" class="card-img-top" alt="Egi Fransesco Saputra">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Egi Fransisco Saputra</h5>
+                  <p class="card-text rubik">Ketua Himpunan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card card-resize">
+                <img src=" assets/img/family/2.png" class="card-img-top" alt="Muhammad Fauzan Marzuki">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Muhammad Fauzan Marzuki</h5>
+                  <p class="card-text rubik">Wakil Ketua Himpunan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card card-resize">
+                <img src="assets/img/family/3.png" class="card-img-top" alt="Muhammad Ricky<">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Muhammad Ricky</h5>
+                  <p class="card-text rubik">Sekretaris 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card card-resize">
+                <img src=" assets/img/family/4.png" class="card-img-top" alt="Tarissa">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Tarissa</h5>
+                  <p class="card-text rubik">Sekretaris 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card card-resize">
+                <img src="assets/img/family/5.png" class="card-img-top" alt="Thingkilia Finnatia Husin">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Thingkilia Finnatia Husin</h5>
+                  <p class="card-text rubik">Bendahara 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card card-resize">
+                <img src=" assets/img/family/6.png" class="card-img-top" alt="Leonica Chandra">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Leonica Chandra</h5>
+                  <p class="card-text rubik">Bendahara 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `
+    bidang.innerHTML =
+      `
+    <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card card-resize">
+                <img src="assets/img/family/bidang/1.png" class="card-img-top" alt="Axel Leovincent">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Axel Leovincent</h5>
+                  <p class="card-text rubik">Ketua Bidang Pendidikan dan Teknologi</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card card-resize">
+                <img src=" assets/img/family/bidang/2.png" class="card-img-top" alt="Ferdi Jiranda Sinaga">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Ferdi Jiranda Sinaga</h5>
+                  <p class="card-text rubik">Ketua Bidang Kreatifitas dan Multimedia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card card-resize">
+                <img src="assets/img/family/bidang/3.png" class="card-img-top" alt="Michael">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Michael</h5>
+                  <p class="card-text rubik">Ketua Bidang Masyarakat dan Kerumahtanggaan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card card-resize">
+                <img src=" assets/img/family/bidang/4.png" class="card-img-top" alt="M. Fajri Septian Dwi Cahyo">
+                <div class="card-body">
+                  <h5 class="card-title rubik">M. Fajri Septian Dwi Cahyo</h5>
+                  <p class="card-text rubik">Ketua Bidang Sosial dan Dana Usaha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `
+  } else {
+    familyNoBidang.innerHTML =
+      `
+    <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src="assets/img/family/1.png" class="card-img-top" alt="Egi Fransesco Saputra">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Egi Fransisco Saputra</h5>
+                  <p class="card-text rubik">Ketua Himpunan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src=" assets/img/family/2.png" class="card-img-top" alt="Muhammad Fauzan Marzuki">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Muhammad Fauzan Marzuki</h5>
+                  <p class="card-text rubik">Wakil Ketua Himpunan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src="assets/img/family/3.png" class="card-img-top" alt="Muhammad Ricky<">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Muhammad Ricky</h5>
+                  <p class="card-text rubik">Sekretaris 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src=" assets/img/family/4.png" class="card-img-top" alt="Tarissa">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Tarissa</h5>
+                  <p class="card-text rubik">Sekretaris 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src="assets/img/family/5.png" class="card-img-top" alt="Thingkilia Finnatia Husin">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Thingkilia Finnatia Husin</h5>
+                  <p class="card-text rubik">Bendahara 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <div class="card card-resize">
+                <img src="assets/img/family/6.png" class="card-img-top" alt="Leonica Chandra">
+                <div class="card-body">
+                  <h5 class="card-title rubik">Leonica Chandra</h5>
+                  <p class="card-text rubik">Bendahara 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `
+    bidang.innerHTML =
+      `
+      <div class="slide">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="card card-resize">
+              <img src="assets/img/family/bidang/1.png" class="card-img-top" alt="Axel Leovincent">
+              <div class="card-body">
+                <h5 class="card-title rubik">Axel Leovincent</h5>
+                <p class="card-text rubik">Ketua Bidang Pendidikan dan Teknologi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="card card-resize">
+              <img src=" assets/img/family/bidang/2.png" class="card-img-top" alt="Ferdi Jiranda Sinaga">
+              <div class="card-body">
+                <h5 class="card-title rubik">Ferdi Jiranda Sinaga</h5>
+                <p class="card-text rubik">Ketua Bidang Kreatifitas dan Multimedia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="card card-resize">
+              <img src="assets/img/family/bidang/3.png" class="card-img-top" alt="Michael">
+              <div class="card-body">
+                <h5 class="card-title rubik">Michael</h5>
+                <p class="card-text rubik">Ketua Bidang Masyarakat dan Kerumahtanggaan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8 ">
+            <div class="card card-resize">
+              <img src=" assets/img/family/bidang/4.png" class="card-img-top" alt="M. Fajri Septian Dwi Cahyo">
+              <div class="card-body">
+                <h5 class="card-title rubik">M. Fajri Septian Dwi Cahyo</h5>
+                <p class="card-text rubik">Ketua Bidang Sosial dan Dana Usaha</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    `
+  }
+  // close for card family
+
+
   //AOS Init
   AOS.init({
     once: true
   });
-
   // init for fullscreen js
-
-  var myFullpage = new fullpage('#fullpage', {
+  // var myFullpage = new fullpage('#fullpage', {
+  new fullpage('#fullpage', {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
@@ -86,13 +379,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // afterSlideLoad: function (section, origin, destination, direction) { },
     // onSlideLeave: function (section, origin, destination, direction) { }
   });
-
-  //methods
-  // fullpage_api.setAllowScrolling(true);
-
-
-  // navbar section
-  const navbarUl = document.querySelectorAll(".ul-from-nav");
 
 });
 

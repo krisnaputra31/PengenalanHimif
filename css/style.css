@@ -10,15 +10,12 @@
     font-family: 'Rubik', sans-serif;
 }
 
-@media screen and (max-width : 768px) {
-    .card-resize {
-        width: 10rem;
-    }
 
-    .card-resize > .card-body > h5, 
-    .card-resize > .card-body > p {
-        font-size: smaller;
-    }
+
+@media screen and (max-width : 768px) {
+    /* .sub-logo {
+        font-size: .5rem;
+    } */
 }
 
 /* #section2{
