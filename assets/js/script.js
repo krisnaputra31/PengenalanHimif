@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //Design
     controlArrows: true,
     verticalCentered: true,
-    sectionsColor: ['#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7', '#1a377c'],
+    sectionsColor: ['#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7', '#50C9CE', '#42F2F7', '#134E4A'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',

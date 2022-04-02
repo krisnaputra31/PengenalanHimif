@@ -9,3 +9,35 @@
 .rubik {
     font-family: 'Rubik', sans-serif;
 }
+
+#hero {
+    background-image: linear-gradient(#0F766E, #2DD4BF);
+}
+
+#section2 {
+    background-image: linear-gradient( #2DD4BF,#0F766E);
+}
+
+#visidanmisi {
+    background-image: linear-gradient(#0F766E, #2DD4BF);
+}
+
+#makna-logo {
+    background-image: linear-gradient( #2DD4BF,#0F766E);
+}
+
+#familyWithoutBidang {
+    background-image: linear-gradient(#0F766E, #2DD4BF);
+}
+
+#ketuaBidang {
+    background-image: linear-gradient( #2DD4BF,#0F766E);
+}
+
+#event-section {
+    background-image: linear-gradient(#0F766E, #2DD4BF,#134E4A);
+}
+
+/* #footer {
+    background-image: linear-gradient( #50C9CE,#047593);
+} */
